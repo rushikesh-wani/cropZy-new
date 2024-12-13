@@ -17,6 +17,13 @@ app.use(express.json());
 app.use(cookieParser());
 
 // Routes
+app.get(`${API_BASE_URL}/`, async (req, res) => {
+  res.status(200).json({
+    statusCode: 200,
+    success: true,
+    message: "Welcome to cropZy",
+  });
+});
 app.get(`${API_BASE_URL}/home`, async (req, res) => {
   res.status(200).json({
     statusCode: 200,
