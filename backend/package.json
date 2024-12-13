@@ -1,0 +1,22 @@
+{
+  "name": "cropzy",
+  "version": "1.0.0",
+  "description": "cropZy is the farm-to-table platform for helping farmers reach their customers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cropZy"
+  ],
+  "author": "Rushikesh Wani",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^2.5.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.8.4"
+  }
+}
